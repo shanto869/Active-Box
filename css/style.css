@@ -135,21 +135,6 @@ nav .navbar .nav-list ul li a:hover {
     transition: all linear .3s;
 }
 
-nav .navbar .nav-list ul li a::after {
-    content: '';
-    height: 1px;
-    width: 0;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: tomato;
-    transition: all linear .3s;
-}
-
-nav .navbar .nav-list ul li a:hover::after {
-    width: 100%;
-}
-
 /* ====================
 	nav css ends 
 ===================== */
